@@ -1,0 +1,228 @@
+html {
+    font: 12px/1.5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #f7f7f7;
+}
+   
+body {
+    margin: 0 auto;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 78px;
+    line-height: 78px;
+    background: #fff;
+    text-align: center;
+    top: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 78px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 1px 0px #fff, 4px 2px 0px rgba(0,0,0,0.15);
+    font-size: 45px;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+main .maining {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
+    margin-bottom: 25px;
+    position: relative;
+    
+}
+
+main nav {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+main .navbar {
+    overflow: hidden;
+    background-color: #474747;
+}
+
+main .navbar a {    
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+}
+  
+main .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+main .navbar .active {
+    background-color: #ddd;
+    color: black;
+}
+  
+main .container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+main .navegacao {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+main .navegacao .desc {
+    width: 80%;
+    padding: 10px 20px;
+    background-color: #fff;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+}
+
+main .navegacao img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
+}
+
+main .navegacao .link1 {
+    width: 31%;
+    float: left;
+    margin: 1%;
+    position: relative;
+}
+
+main .navegacao .link2 {
+    width: 31%;
+    float: left;
+    margin: 1%;
+    position: relative;
+}
+
+main .navegacao .link3 {
+    width: 31%;
+    float: left;
+    margin: 1%;
+    position: relative;
+}
+
+main .list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+main .list img {
+    position: absolute;
+    width: 250px;
+}
+
+main .list p {
+    padding-left: 260px;
+    position: relative;
+}
+
+main .list h1 {
+    padding-left: 260px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+  
+main .list li {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
+    margin-bottom: 25px;
+    height: 374.81px;
+}
+
+main .list li:nth-child(even) {
+    padding-right: 250px;
+    text-align: right;
+    padding-left: 0;
+}
+
+main .list li:nth-child(even) p, h1 {
+    margin-right: 10px;
+}
+
+main h2 {
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 1px 0px #fff, 4px 2px 0px rgba(0,0,0,0.15);
+    font-size: 35px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #afafaf;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #575757;
+  }
+
+footer { 
+    bottom: 0;
+}
+
+footer .index {
+    clear: both;
+    position: relative;
+    height: 68px;
+    margin-top: -68px;
+}
+
+footer p {
+    font-size: 13px;
+    text-align: center;
+    line-height: 78px;
+}
